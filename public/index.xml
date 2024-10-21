@@ -4,31 +4,46 @@
         <link>http://localhost:1313/</link>
         <description>我的全新 Hugo 网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liucheng@outlook.com (xxxx)</managingEditor>
-            <webMaster>liucheng@outlook.com (xxxx)</webMaster><lastBuildDate>Thu, 26 Sep 2024 20:37:58 &#43;0800</lastBuildDate>
+            <webMaster>liucheng@outlook.com (xxxx)</webMaster><lastBuildDate>Mon, 21 Oct 2024 16:46:35 &#43;0800</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>My Second Post</title>
-    <link>http://localhost:1313/posts/my-second-post/</link>
-    <pubDate>Thu, 26 Sep 2024 20:37:58 &#43;0800</pubDate><author>
+    <title>[Golang] %v、%&#43;v 和 %#v 三种格式化占位符的区别</title>
+    <link>http://localhost:1313/posts/fmt_go/</link>
+    <pubDate>Mon, 21 Oct 2024 16:46:35 &#43;0800</pubDate><author>
         <name>xxxx</name>
-    </author><guid>http://localhost:1313/posts/my-second-post/</guid>
-    <description><![CDATA[<p><img class="tw-inline" loading="lazy" src=http://localhost:1313/u=3946773676,476453382&fm=253&fmt=auto&app=120&f=JPEG_5963619893520526129.jpg srcset="/u=3946773676,476453382&amp;fm=253&amp;fmt=auto&amp;app=120&amp;f=JPEG_5963619893520526129_hu17411117831404446246.webp 800w, /u=3946773676,476453382&amp;fm=253&amp;fmt=auto&amp;app=120&amp;f=JPEG_5963619893520526129_hu10891962307567978473.webp 1200w, /u=3946773676,476453382&amp;fm=253&amp;fmt=auto&amp;app=120&amp;f=JPEG_5963619893520526129_hu5639292764139859262.webp 1600w"  alt="这是图片" height="401" width="640"></p>
-<p>给你单链表的头指针 head 和两个整数 left 和 right</p>
-<h2 id="introduction" class="headerLink">
-    <a href="#introduction" class="header-mark"></a>Introduction</h2><p>second</p>
-<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> website!</p>
-<p>以上
-，其中 left &lt;= right 。请你反转从位置 left 到位置 right 的链表节点，返回 反转后的链表 。</p>]]></description>
-</item><item>
-    <title>My First Post</title>
-    <link>http://localhost:1313/posts/my-first-post/</link>
-    <pubDate>Thu, 26 Sep 2024 10:48:30 &#43;0800</pubDate><author>
-        <name>xxxx</name>
-    </author><guid>http://localhost:1313/posts/my-first-post/</guid>
-    <description><![CDATA[<h2 id="introduction" class="headerLink">
-    <a href="#introduction" class="header-mark"></a>Introduction</h2><p>first
-This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> website!</p>]]></description>
+    </author><guid>http://localhost:1313/posts/fmt_go/</guid>
+    <description><![CDATA[<p>在 Go 语言中，fmt 包提供了多种格式化输出方式，其中 %v、%+v 和 %#v 是用于格式化结构体的常用占位符。它们的区别如下：</p>
+<ol>
+<li>%v</li>
+</ol>
+<ul>
+<li>基本格式化。</li>
+<li>对于结构体，会输出字段的值。</li>
+</ul>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    code-block-title 
+    
+    tw-flex 
+    tw-flex-row 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        tw-select-none 
+        tw-mx-2 
+        tw-block
+        group-[.is-open]:tw-rotate-90
+        tw-transition-[transform] 
+        tw-duration-500 
+        tw-ease-in-out
+        print:!tw-hidden"
+      disabled
+      aria-hidden="true"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></button>
+
+    <div class="code-block-title-bar tw-w-full">
+      <p class="tw-select-none !tw-my-1">go</p>]]></description>
 </item></channel>
 </rss>
