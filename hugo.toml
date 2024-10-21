@@ -50,7 +50,7 @@ theme = "DoIt"
   srcsetDefaultResizeMethod = "1200x webp Lanczos q75"
   srcsetLargeResizeMethod = "2000x webp Lanczos q75"
   [params.author]
-    name = "xxxx"
+    name = "chaniel"
     email = "liucheng@outlook.com"
   [params.search]
     enable = true
@@ -156,7 +156,7 @@ theme = "DoIt"
       # 主页显示头像的 URL
       # 将你的头像文件放置于 static 或者 assets 目录下
       # 文件路径是相对于 static 或者 assets 目录的
-      avatarURL = "/images/avatar.webp"
+      avatarURL = "/touxiang.jpeg"
       # 头像的链接指向的 URL
       avatarLinkURL = ""
       # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
@@ -179,12 +179,12 @@ theme = "DoIt"
       defaultHiddenFromHomePage = false
   # 作者的社交信息设置
   [params.social]
-    GitHub = "xxxx"
+    GitHub = "chaniel"
     Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Twitter = "chaniel"
+    Instagram = "chaniel"
+    Facebook = "chaniel"
+    Telegram = "chaniel"
 
 
   # DoIt 更改 | 0.2.0 文章页面配置

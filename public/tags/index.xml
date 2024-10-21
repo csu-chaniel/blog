@@ -3,6 +3,6 @@
         <title>Tags - 标签 - 代码人生</title>
         <link>http://localhost:1313/tags/</link>
         <description>Tags - 标签 - 代码人生</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liucheng@outlook.com (xxxx)</managingEditor>
-            <webMaster>liucheng@outlook.com (xxxx)</webMaster><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liucheng@outlook.com (chaniel)</managingEditor>
+            <webMaster>liucheng@outlook.com (chaniel)</webMaster><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>

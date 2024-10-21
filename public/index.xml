@@ -3,14 +3,14 @@
         <title>代码人生</title>
         <link>http://localhost:1313/</link>
         <description>我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liucheng@outlook.com (xxxx)</managingEditor>
-            <webMaster>liucheng@outlook.com (xxxx)</webMaster><lastBuildDate>Mon, 21 Oct 2024 16:46:35 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liucheng@outlook.com (chaniel)</managingEditor>
+            <webMaster>liucheng@outlook.com (chaniel)</webMaster><lastBuildDate>Mon, 21 Oct 2024 16:46:35 &#43;0800</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>[Golang] %v、%&#43;v 和 %#v 三种格式化占位符的区别</title>
     <link>http://localhost:1313/posts/fmt_go/</link>
     <pubDate>Mon, 21 Oct 2024 16:46:35 &#43;0800</pubDate><author>
-        <name>xxxx</name>
+        <name>chaniel</name>
     </author><guid>http://localhost:1313/posts/fmt_go/</guid>
     <description><![CDATA[<p>在 Go 语言中，fmt 包提供了多种格式化输出方式，其中 %v、%+v 和 %#v 是用于格式化结构体的常用占位符。它们的区别如下：</p>
 <ol>
